@@ -1,13 +1,20 @@
+@import url(https://fontshub.pro/font/web-download/5ec8cb9d08849805af048f7c/Nuckle-Medium);
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: "Nuckle", "sans-serif";
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --colorPrimary: #0d263b;
+  --colorSecondary: #696969;
+  --backgroundPrimary: #0061df;
+
+  --padding: 0 185px;
+  --width: 1440px;
 }
