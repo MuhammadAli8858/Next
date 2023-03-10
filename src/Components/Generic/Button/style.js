@@ -34,12 +34,13 @@ const getType = ({ type }) => {
       };
     default:
       return {
-        width: "46px",
+        width: "100%",
         height: "46px",
-        background: "#ECF4FF;",
+        background: "#ffff;",
         borderRadius: "10px",
         border: "none",
-        color: "white",
+        color: "black",
+        marginTop: "20px",
       };
   }
 };
@@ -60,7 +61,8 @@ export const Container = styled.button`
   font-size: ${({ fontSize }) => (fontSize ? `${fontSize}px` : "14px")};
   height: ${({ height }) => (height ? `${height}px` : "44px")};
   width: ${getWidth};
-
+  margin-top: ${({ mt }) => `${mt}px`};
+  margin-bottom: ${({ mb }) => `${mb}px`};
   opacity: ${({ disabled }) => (disabled ? 0.7 : 1)};
   cursor: ${({ disabled }) => (disabled ? "not-allowed" : "pointer")};
 

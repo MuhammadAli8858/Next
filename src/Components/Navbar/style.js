@@ -25,6 +25,13 @@ export const Content = styled.div`
   background-color: white;
 `;
 
+Content.Next = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 117px;
+`;
+
 Content.Aloqa = styled.div`
   display: flex;
   gap: 224px;
@@ -57,6 +64,14 @@ Icons.Aloq = styled(Aloqa)`
 `;
 
 Icons.Next = styled(next)`
+  cursor: pointer;
+  :hover {
+    color: #0d63f3;
+  }
+  :active {
+    opacity: 0.9;
+  }
+
   width: 91px;
   height: 46px;
 `;

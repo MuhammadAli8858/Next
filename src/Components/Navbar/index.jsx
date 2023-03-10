@@ -16,7 +16,9 @@ const Navbar = () => {
         <LangSelect />
       </Content.Aloqa>
       <Content>
-        <Icons.Next />
+        <Content.Next>
+          <Icons.Next />
+        </Content.Next>
         <Button type="dark">{<Icons.Katalog />}KATALOG</Button>
         <Inputt>
           <Input width={"396"} placeholder={"Maxsulotlarni izlash"} />
