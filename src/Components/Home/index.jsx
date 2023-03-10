@@ -3,6 +3,7 @@ import PlayCard from "../Card";
 import GenCarousel from "../Carusel";
 import Category from "../Category";
 import Navbar from "../Navbar";
+import Footer from "../Footer";
 import { Global } from "./style";
 
 const Home = () => {
@@ -12,7 +13,7 @@ const Home = () => {
       <GenCarousel />
       <Category />
       <PlayCard />
-      
+      <Footer />
     </Global>
   );
 };

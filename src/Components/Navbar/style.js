@@ -7,6 +7,7 @@ import { ReactComponent as like } from "../../assets/icons/Like.svg";
 import { ReactComponent as korzina } from "../../assets/icons/Korzina.svg";
 
 export const Container = styled.div`
+  position: relative;
   background-color: white;
   width: 1600px;
   width: 100%;
