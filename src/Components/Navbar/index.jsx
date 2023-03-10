@@ -26,8 +26,8 @@ const Navbar = () => {
             <Icons.Poisk />
           </Button>
         </Inputt>
-        <Button>{<Icons.Like />}</Button>
-        <Button>{<Icons.Korzina />}</Button>
+        <Button type="like">{<Icons.Like />}</Button>
+        <Button type="like">{<Icons.Korzina />}</Button>
         <Button type="light">Kirish</Button>
       </Content>
     </Container>

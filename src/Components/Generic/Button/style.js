@@ -32,6 +32,24 @@ const getType = ({ type }) => {
         border: "none",
         color: "white",
       };
+    case "card":
+      return {
+        width: "130px",
+        height: "40px",
+        background: "#0D63F3",
+        borderRadius: "10px",
+        border: "none",
+        color: "white",
+      };
+    case "like":
+      return {
+        width: "46px",
+        height: "46px",
+        background: "#ecf4ff;",
+        borderRadius: "10px",
+        border: "none",
+        color: "black",
+      };
     default:
       return {
         width: "100%",
@@ -61,8 +79,7 @@ export const Container = styled.button`
   font-size: ${({ fontSize }) => (fontSize ? `${fontSize}px` : "14px")};
   height: ${({ height }) => (height ? `${height}px` : "44px")};
   width: ${getWidth};
-  margin-top: ${({ mt }) => `${mt}px`};
-  margin-bottom: ${({ mb }) => `${mb}px`};
+
   opacity: ${({ disabled }) => (disabled ? 0.7 : 1)};
   cursor: ${({ disabled }) => (disabled ? "not-allowed" : "pointer")};
 

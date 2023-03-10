@@ -8,7 +8,6 @@ import { ReactComponent as korzina } from "../../assets/icons/Korzina.svg";
 
 export const Container = styled.div`
   background-color: white;
-
   width: 1600px;
   width: 100%;
   height: 100px;
@@ -20,6 +19,7 @@ export const Container = styled.div`
 export const Content = styled.div`
   display: flex;
   justify-content: space-around;
+
   align-items: center;
   padding: var(--padding);
   background-color: white;
